@@ -9,9 +9,9 @@ font-family: 'Poppins', sans-serif;
 }
 
 .hero {
-  background-color: #fff3ef;
   text-align: center;
-  padding: 120px 20px;
+  padding: 70px 10px;
+  background-color: #f9f7fe;
 }
 
 h1 {
@@ -52,4 +52,48 @@ h2 {
   width: 150px;
   padding: 12px 15px;
   margin-bottom: 10px;
+}
+
+.hero-about {
+  font-family: "Poppins", sans-serif;
+  background-color: #7bd48a;
+  border-radius: 100px;
+  border: 1px solid;
+  border-color: #7bd48a;
+  line-height: 27px;
+  font-size: 20px;
+  width: 150px;
+  padding: 12px 15px;
+  margin: 15px 15px;
+}
+
+.second-heading {
+  font-family: "Playfair Display", serif;
+  font-weight: bolder;
+  font-size: 35px;
+  color: grey;
+  margin: 5px 5px;
+}
+
+.hero-p2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  text-align: justify;
+}
+
+.second-image {
+  padding: 20px;
+  border-radius: 20%;
+  display: block;
+  margin: 0 auto;
+}
+
+.third-heading {
+  font-family: "Playfair Display", serif;
+  font-weight: bolder;
+  font-size: 35px;
+  color: #a34caa;
+  margin: 5px 5px;
+  text-align: center;
 }
