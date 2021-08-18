@@ -120,8 +120,14 @@ h2 {
 }
 
 .hero-bar {
-  background-color: #a34caa;
+  background-color: #d5a2dd;
   color: white;
   font-size: large;
   font-weight: bold;
+}
+
+@media (max-width: 960px) {
+  .content-block {
+    text-align: center;
+  }
 }
