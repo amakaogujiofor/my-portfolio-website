@@ -120,6 +120,8 @@ h2 {
 }
 
 .hero-bar {
-  background-color: #d5a2dd;
+  background-color: #a34caa;
   color: white;
+  font-size: large;
+  font-weight: bold;
 }
