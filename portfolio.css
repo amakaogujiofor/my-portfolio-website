@@ -97,3 +97,29 @@ h2 {
   margin: 5px 5px;
   text-align: center;
 }
+
+.showcase-image {
+  padding: 10px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.third-btn {
+  font-family: "Poppins", sans-serif;
+  background-color: #fc806e;
+  border-radius: 100px;
+  border: 1px solid;
+  border-color: #fc806e;
+  line-height: 27px;
+  font-size: 20px;
+  padding: 12px 15px;
+  margin: 0 auto;
+  display: block;
+  width: 150px;
+}
+
+.hero-bar {
+  background-color: #d5a2dd;
+  color: green;
+}

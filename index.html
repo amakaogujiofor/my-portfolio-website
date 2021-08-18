@@ -28,8 +28,36 @@
     />
     <link rel="stylesheet" href="/portfolio.css" />
     <title>Amaka Ogujiofor | Front-end Developer</title>
+    <link rel="icon" type="image/png" size="32x32" href="/favicon-32x32.png" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top hero-bar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Amaka Ogujiofor</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="about.html">About Me</a>
+            <a class="nav-link" href="about.html">My Projects</a>
+            <a class="nav-link" href="about.html#contact">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
     <div class="hero">
       <p class="hero-p">👋 Hello there, I am</p>
       <h1>Amaka Ogujiofor</h1>
@@ -40,7 +68,7 @@
         width="140px"
       />
       <h2>A Front-end Developer based in Lagos, Nigeria</h2>
-      <a href="#" class="btn btn-primary hero-btn">Know More</a>
+      <a href="#" class="btn btn-primary hero-btn">Contact</a>
     </div>
     <div class="container">
       <div class="row">
@@ -49,7 +77,7 @@
           <p class="hero-p2">
             My love for computers started at a very young age with just handling
             a task of typing manuals with lots and lots of pages. From then on,
-            Computers got me. My career journey into Tech is one of numerous
+            Computers got me. My career journey with Tech is one of numerous
             shapes with twists and turns. Come along with me as I take you on a
             journey to showcase what Tech is to me.
           </p>
@@ -60,7 +88,7 @@
             src="/images/pc-image.jpg"
             alt="lady-pc"
             width="500px"
-            class="second-image"
+            class="img-fluid second-image"
           />
         </div>
       </div>
@@ -69,9 +97,36 @@
     <h2 class="third-heading">What I've worked on so far</h2>
     <div class="container">
       <div class="row">
-        <div class="col">1 of 3</div>
-        <div class="col">2 of 3</div>
-        <div class="col">3 of 3</div>
+        <div class="col">
+          <img
+            src="/images/Recipe Image.PNG"
+            alt="lady-pc"
+            width="350px"
+            class="img-fluid showcase-image"
+          />
+          <h2>Recipe Webpage</h2>
+        </div>
+        <div class="col">
+          <img
+            src="/images/weather-image.png"
+            alt="lady-pc"
+            width="600px"
+            class="img-fluid showcase-image"
+          />
+          <h2>Weather WebApp Project</h2>
+        </div>
+        <div class="col">
+          <img
+            src="/images/portfolio image.PNG"
+            alt="lady-pc"
+            width="600px"
+            class="img-fluid showcase-image"
+          />
+          <h2>Portfolio Website</h2>
+        </div>
+        <div class="container">
+          <a href="#" class="btn btn-primary third-btn">Know More</a>
+        </div>
       </div>
     </div>
   </body>
