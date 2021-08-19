@@ -8,10 +8,25 @@ font-family: 'Poppins', sans-serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgb(43, 1, 91) 30.4%,
+    rgb(122, 2, 54) 100.2%
+  );
+}
+
 .hero {
+  background: linear-gradient(
+    103deg,
+    rgb(235, 225, 188) 7.2%,
+    rgb(232, 188, 234) 57.5%,
+    rgb(203, 209, 244) 90.7%
+  );
   text-align: center;
   padding: 70px 10px;
-  background-color: #f9f7fe;
+  padding-bottom: 9px;
+  border-radius: 70px;
 }
 
 h1 {
@@ -21,11 +36,21 @@ h1 {
 }
 
 h2 {
-  color: grey;
+  color: whitesmoke;
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-size: 20px;
   line-height: 2;
+  text-align: center;
+}
+
+.hero-h2 {
+  color: #410251;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 2;
+  text-align: center;
 }
 
 .hero-img {
@@ -54,12 +79,16 @@ h2 {
   margin-bottom: 10px;
 }
 
+.hero-btn:hover {
+  background-color: #a34caa;
+}
+
 .hero-about {
   font-family: "Poppins", sans-serif;
-  background-color: #7bd48a;
+  background-color: #157347;
   border-radius: 100px;
   border: 1px solid;
-  border-color: #7bd48a;
+  border-color: #157347;
   line-height: 27px;
   font-size: 20px;
   width: 150px;
@@ -67,19 +96,25 @@ h2 {
   margin: 15px 15px;
 }
 
+.hero-about:hover {
+  background-color: #fc806e;
+}
+
 .second-heading {
   font-family: "Playfair Display", serif;
   font-weight: bolder;
   font-size: 35px;
-  color: grey;
+  color: white;
   margin: 5px 5px;
 }
 
 .hero-p2 {
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-weight: 150;
+  font-size: 17px;
   margin: 0;
   text-align: justify;
+  color: white;
 }
 
 .second-image {
@@ -91,9 +126,9 @@ h2 {
 
 .third-heading {
   font-family: "Playfair Display", serif;
-  font-weight: bolder;
-  font-size: 35px;
-  color: grey;
+  font-weight: 200;
+  font-size: 30px;
+  color: white;
   margin: 5px 5px;
   text-align: center;
 }
@@ -107,7 +142,7 @@ h2 {
 
 .third-btn {
   font-family: "Poppins", sans-serif;
-  background-color: #fc806e;
+  background-color: #e8dbd0;
   border-radius: 100px;
   border: 1px solid;
   border-color: #fc806e;
@@ -117,10 +152,19 @@ h2 {
   margin: 0 auto;
   display: block;
   width: 150px;
+  color: #4f024b;
+}
+
+.third-btn:hover {
+  background-color: #4f024b;
 }
 
 .hero-bar {
-  background-color: #d5a2dd;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(134, 47, 199) 0%,
+    rgb(235, 56, 137) 90%
+  );
   color: white;
   font-size: large;
   font-weight: bold;
