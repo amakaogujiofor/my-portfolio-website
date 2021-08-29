@@ -283,3 +283,13 @@ h2 {
   background-color: #4f024b;
   border-color: #4f024b;
 }
+
+.contact-box {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 150;
+  font-size: 20px;
+  margin-top: 60px;
+  text-align: justify;
+  color: white;
+  line-height: 1.5;
+}
