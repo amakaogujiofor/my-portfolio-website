@@ -34,6 +34,11 @@ h1 {
   font-weight: bold;
   font-size: 75px;
 }
+h3 {
+  font-size: 1rem;
+  margin-top: 15px;
+  text-align: center;
+}
 
 h2 {
   color: whitesmoke;
@@ -88,6 +93,7 @@ h2 {
 
 .hero-btn:hover {
   background-color: #a34caa;
+  border-style: none;
 }
 
 .hero-about {
@@ -158,7 +164,8 @@ h2 {
   background-color: #e8dbd0;
   border-radius: 50px;
   border: 1px solid;
-  border-color: #fc806e;
+  /* border-color: #fc806e; */
+
   line-height: 27px;
   font-size: 20px;
   padding: 12px 15px;
@@ -239,7 +246,7 @@ h2 {
 
 .workpage-heading {
   color: white;
-  margin-top: 100px;
+  margin-top: 80px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
   font-weight: normal;
@@ -253,7 +260,7 @@ h2 {
   border-color: #157347;
   border-style: solid;
   border-width: 5px;
-  width: 500px;
+  width: 450px;
 }
 
 .weather-text {
@@ -292,6 +299,9 @@ h2 {
   text-align: justify;
   color: white;
   line-height: 1.5;
+}
+.contact-me {
+  text-align: left;
 }
 
 .footer-bar1 {
@@ -337,11 +347,12 @@ h2 {
   color: #410251;
   font-weight: bold;
 }
-@media (min-width: 200px) {
+@media (min-width: 500px) {
   .inquiry {
     text-align: center;
   }
   h3 {
     margin-top: 20px;
+    font-size: 25px;
   }
 }
